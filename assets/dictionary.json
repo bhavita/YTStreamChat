@@ -1,6 +1,6 @@
  {
  	"emotes" : [
-		{ "id": 1 , "code" :"raeScare" },
-		{ "id": 2 , "code" : "raeShocked" }
+		{ "id": 1 , "code" :"raeScare", "ext" : "gif" },
+		{ "id": 2 , "code" : "raeShocked" , "ext" : "gif"}
 	]
  }
