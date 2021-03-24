@@ -21,6 +21,6 @@
 		"https://api.twitch.tv/*",
 		"https://api.betterttv.net/*",
 		"https://api.twitchemotes.com/*",
-		"https://https://cdn.jsdelivr.net/*"
+		"https://cdn.jsdelivr.net/*"
 	]
 }
