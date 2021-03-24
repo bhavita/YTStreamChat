@@ -81,7 +81,7 @@ let YTHelper = {
 				else if (twitchGlobalEmotes[word]) {
 					word = '<img style="vertical-align: middle" src="https://static-cdn.jtvnw.net/emoticons/v1/' + twitchGlobalEmotes[word] + '/1.0" alt="' + word + '" title="' + word + '" />';
 				} else if(customEmotes[word]){
-						word = '<img style="vertical-align: middle" src="https://static-cdn.jtvnw.net/emoticons/v1/' + customEmotes[word] + '/1.0" alt="' + word + '" title="' + word + '" />';
+						word = '<img style="vertical-align: middle" src="https://cdn.jsdelivr.net/gh/bhavita/YTStreamChat/assets/emotes/' + customEmotes[word].id + "." + customEmotes[word].ext  + '" alt="' + word + '" title="' + word + '" />';
 
 				}
 
@@ -105,13 +105,19 @@ let SYNC_THRESHOLD = 604800000;
 const Custom = {
 	lastUpdate : 0,
 	fetchEmotes(items){
+		return new Promise((resolve) => {
 		customEmotes = items.customEmotes || {};
 		if(typeof customEmotes === 'undefined' || customEmotes.length == 0 || Date.now()  - Custom.lastUpdate > SYNC_THRESHOLD){
-			NTHelper.fetch('https://cdn.jsdelivr.net').then((data) => {
+			NTHelper.fetch('https://raw.githubusercontent.com/bhavita/YTStreamChat/main/assets/dictionary.json').then((data) => {
 				Custom.lastUpdate = 0;
-				if(data && data.length > 0){
+				if(data && data.emotes){
 					for(let emote of data.emotes){
-						customEmotes[emote.code] = emote.id;
+						let w = {
+							"id" :  emote.id,
+							"ext" : emote.ext
+						}
+
+						customEmotes[emote.code] = w;
 					}
 				}	
 
@@ -120,6 +126,7 @@ const Custom = {
 		} else{
 			resolve();
 		}
+		});
 	}
 }
  
@@ -183,9 +190,12 @@ const BTTV = {
 				chrome.storage.local.get((items) => {
 					Twitch.fetchGlobalEmotes(items).finally(() => {
 						this.fetchGlobalEmotes(items).finally(() => {
+							Custom.fetchEmotes(items).finally(() => {
 							this.updateSettings();
 							resolve();
 						});
+						});
+
 					});
 				});
 			});
