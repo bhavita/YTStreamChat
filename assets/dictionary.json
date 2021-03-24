@@ -1,4 +1,6 @@
-emotes : [
-	{"id": 1 , "code" :"raeScare"},
-	{"id": 2 , "code" : "raeShocked"}
-]
+ {
+ 	"emotes" : [
+		{ "id": 1 , "code" :"raeScare" },
+		{ "id": 2 , "code" : "raeShocked" }
+	]
+ }
