@@ -75,13 +75,15 @@ let YTHelper = {
 			let split = text.split(' ');
 			let newText = [];
 			for (let word of split) {
-				if (bttvEmotes[word]) {
-					word = '<img style="vertical-align: middle" src="https://cdn.betterttv.net/emote/' + bttvEmotes[word] + '/1x" alt="' + word + '" title="' + word + '" />';
+				let sword = word.toLowerCase();
+				if (bttvEmotes[sword]) {
+					word = '<img style="vertical-align: middle" src="https://cdn.betterttv.net/emote/' + bttvEmotes[sword] + '/1x" alt="' + word + '" title="' + word + '" />';
 				}
-				else if (twitchGlobalEmotes[word]) {
-					word = '<img style="vertical-align: middle" src="https://static-cdn.jtvnw.net/emoticons/v1/' + twitchGlobalEmotes[word] + '/1.0" alt="' + word + '" title="' + word + '" />';
-				} else if(customEmotes[word]){
-						word = '<img style="vertical-align: middle" src="https://cdn.jsdelivr.net/gh/bhavita/YTStreamChat/assets/emotes/' + customEmotes[word].id + "." + customEmotes[word].ext  + '" alt="' + word + '" title="' + word + '" />';
+				else if (twitchGlobalEmotes[sword]) {
+					word = '<img style="vertical-align: middle" src="https://static-cdn.jtvnw.net/emoticons/v1/' + twitchGlobalEmotes[sword] + '/1.0" alt="' + word + '" title="' + word + '" />';
+				} else if(customEmotes[sword]){
+						let customEmote = customEmotes[sword];
+						word = '<img style="vertical-align: middle" src="https://cdn.jsdelivr.net/gh/bhavita/YTStreamChat/assets/emotes/' + customEmote.cat + "/" +  customEmote.id + "." + customEmote.ext  + '" alt="' + word + '" title="' + word + '" />';
 
 				}
 
@@ -114,10 +116,11 @@ const Custom = {
 					for(let emote of data.emotes){
 						let w = {
 							"id" :  emote.id,
-							"ext" : emote.ext
+							"ext" : emote.ext,
+							"cat" : emote.cat
 						}
 
-						customEmotes[emote.code] = w;
+						customEmotes[emote.code.toLowerCase()] = w;
 					}
 				}	
 
@@ -140,7 +143,7 @@ const Custom = {
 						Twitch.lastUpdate = Date.now();
 						for (let emote of data.emotes) {
 							if (emote.code.match(/^[a-zA-Z0-9]+$/)) {
-								twitchGlobalEmotes[emote.code] = emote.id;
+								twitchGlobalEmotes[emote.code.toLowerCase()] = emote.id;
 							}
 						}
 						chrome.storage.local.set({ globalTwitchEmotes: twitchGlobalEmotes }, () => resolve());
@@ -173,7 +176,7 @@ const BTTV = {
 					return NTHelper.fetch('https://api.betterttv.net/3/cached/emotes/global').
 						then((data) => {
 						for (let emote of data) {
-							bttvEmotes[emote.code] = emote.id;
+							bttvEmotes[emote.code.toLowerCase()] = emote.id;
 						}
 					}).finally(() => {
 						BTTV.lastUpdate = Date.now();
