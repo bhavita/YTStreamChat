@@ -5,7 +5,7 @@
 				{ "id": 3 , "code" : "raeDerp" , "ext" : "gif", "cat" : "rae"},
 				{ "id": 4 , "code" : "raeDance" , "ext" : "gif", "cat" : "rae"},
 				{ "id": 5 , "code" : "raeCool" , "ext" : "gif", "cat" : "rae"},
-				{ "id": 6 , "code" : "mika" , "ext" : "gif", "cat" : "rae"},
+				{ "id": 6 , "code" : "mikaCute" , "ext" : "gif", "cat" : "rae"},
 				{ "id": 7 , "code" : "raeHappy" , "ext" : "gif", "cat" : "rae"},
 				{ "id": 8 , "code" : "raeaww" , "ext" : "gif", "cat" : "rae"},
 				{ "id": 9 , "code" : "raeButt" , "ext" : "gif", "cat" : "rae"},
@@ -46,7 +46,9 @@
 				{ "id": 44 , "code" : "raeWatch" , "ext" : "gif", "cat" : "rae"},
 				{ "id": 45 , "code" : "raeScratch" , "ext" : "gif", "cat" : "rae"},
 				{ "id": 46 , "code" : "raeCreep" , "ext" : "gif", "cat" : "rae"},
-				{ "id": 47 , "code" : "raeFight" , "ext" : "gif", "cat" : "rae"}
+				{ "id": 47 , "code" : "raeFight" , "ext" : "gif", "cat" : "rae"},
+				{ "id": 48 , "code" : "wideRae" , "ext" : "jpg", "cat" : "rae"}
+
 			
 	]
  }
