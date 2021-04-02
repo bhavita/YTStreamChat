@@ -122,6 +122,7 @@ button{
   cursor: pointer;
   overflow: hidden;
   transition: all .35s;
+  outline: none;
 }
 
 button:hover{
