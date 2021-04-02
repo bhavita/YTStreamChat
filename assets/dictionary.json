@@ -47,7 +47,7 @@
 				{ "id": 45 , "code" : "raeScratch" , "ext" : "gif", "cat" : "rae"},
 				{ "id": 46 , "code" : "raeCreep" , "ext" : "gif", "cat" : "rae"},
 				{ "id": 47 , "code" : "raeFight" , "ext" : "gif", "cat" : "rae"},
-				{ "id": 48 , "code" : "wideRae" , "ext" : "jpg", "cat" : "rae"}
+				{ "id": 48 , "code" : "wideRae" , "ext" : "png", "cat" : "rae"}
 
 			
 	]
