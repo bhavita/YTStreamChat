@@ -1,20 +1,21 @@
 // Saves options to chrome.storage
 function saveOptions() {
+
   var changeColor = document.getElementById('changeColor').checked;
   var showProfilePic = document.getElementById('showProfilePic').checked;
   var showTimestamp = document.getElementById('showTimestamp').checked;
+  var showCustomemote = document.getElementById('showCustomemote').checked;
+
+  var btn = document.getElementById('save');
+
 
   chrome.storage.local.set({
     changeColor: changeColor,
     showProfilePic: showProfilePic,
-    showTimestamp : showTimestamp
-  }, function() {
-    // Update status to let user know options were saved.
-    var status = document.getElementById('status');
-    status.textContent = 'Options saved.';
-    setTimeout(function() {
-      status.textContent = '';
-    }, 750);
+    showTimestamp : showTimestamp,
+    showCustomemote : showCustomemote
+  }, function() {  
+      btn.classList.toggle("is_active");
   });
 };
 
@@ -23,14 +24,15 @@ function saveOptions() {
 function restoreOptions() {
   // Use default value color = 'red' and likesColor = true.
   chrome.storage.local.get({
-    changeColor: false,
-    showProfilePic: true,
-    showTimestamp : true
+    changeColor: true,
+    showProfilePic: false,
+    showTimestamp : false,
+    showCustomemote : true
   }, function(items) {
     document.getElementById('changeColor').checked = items.changeColor;
     document.getElementById('showProfilePic').checked = items.showProfilePic;
     document.getElementById('showTimestamp').checked = items.showTimestamp;
-
+    document.getElementById('showCustomemote').checked = items.showCustomemote;
   });
 }
 

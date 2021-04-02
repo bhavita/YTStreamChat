@@ -1,7 +1,7 @@
 {
-	"name": "YTStreamChat",
+	"name": "Emotesly",
 	"version": "1.0.0",
-	"description": "Enchance youtube stream experience by using emotes",
+	"description": "Enchance youtube stream experience by using emotes. Express Emotesly!!!!!",
 	"manifest_version": 2,
 	"content_scripts": [
 		{
