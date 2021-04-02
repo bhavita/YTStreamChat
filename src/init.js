@@ -3,9 +3,10 @@ let bttvEmotes = {};
 let customEmotes = {};
 let settings = {};
 let defaultSettings = {
-	changeColor : false,
-	showProfilePic : true,
-	showTimestamp : true
+	changeColor : true,
+	showProfilePic : false,
+	showTimestamp : false,
+	showCustomemote : true
 };
 
 let UIHelper = {
@@ -16,6 +17,8 @@ updateSettingOptions (items){
 											items.showProfilePic : defaultSettings.showProfilePic;
 		settings.showTimestamp = (items && items.showTimestamp != undefined) ? 
 											items.showTimestamp : defaultSettings.showTimestamp;
+		settings.showCustomemote = (items && items.showCustomemote != undefined) ? 
+											items.showCustomemote : defaultSettings.showCustomemote;
 
 },
 
@@ -197,6 +200,7 @@ let YTHelper = {
 			}
 		}
 
+		if(settings.showCustomemote){
 		let message = node.querySelector('#message');
 		if (message && message.innerText && message.innerText.length > 0) {
 			let prevMsg = message.innerText;
@@ -208,8 +212,10 @@ let YTHelper = {
 				span.innerHTML = rmsg;
 				message.style.display = 'none';
 				message.parentNode.append(span);
-		} 
+			} 
+		}
 	}
+
 }
 };
 
