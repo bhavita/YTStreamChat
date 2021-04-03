@@ -34,7 +34,7 @@ If you would like a new emote added, please raise an issue(request) about it and
 | ![](rae/28.gif)|raePray|
 | ![](rae/29.gif)|raePuke|
 | ![](rae/30.gif)|raeRaid|
-| ![](rae/31.gif)|raeRawrXD|
+| ![](rae/31.gif)|raeRawr|
 | ![](rae/32.gif)|raeRee|
 | ![](rae/33.gif)|raeScare|
 | ![](rae/34.gif)|raeScared|
