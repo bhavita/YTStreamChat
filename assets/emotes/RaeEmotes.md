@@ -1,6 +1,6 @@
 # Rae-Emotes Dictionary
-These are the custom emotes included in emotesly extension for Valkyrae youtube channel (), 
-If you would like a new emote added, please make an issue about it and gain support, altnativly if you are in her discord you can reach out to me to add more :)
+These are the custom emotes included in the Emotesly extension for Valkyrae youtube channel (https://www.youtube.com/c/Valkyrae1/), 
+If you would like a new emote added, please raise an issue(request) about it and gain support ^_^, alternatively, if you are in her discord, you can reach out to me to add more :)
 
 | Emote | Text |
 | --- | --- |
