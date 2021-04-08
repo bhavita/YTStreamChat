@@ -47,8 +47,12 @@
 				{ "id": 45 , "code" : "raeScratch" , "ext" : "gif", "cat" : "rae"},
 				{ "id": 46 , "code" : "raeCreep" , "ext" : "gif", "cat" : "rae"},
 				{ "id": 47 , "code" : "raeFight" , "ext" : "gif", "cat" : "rae"},
-				{ "id": 48 , "code" : "wideRae" , "ext" : "png", "cat" : "rae"}
+				{ "id": 48 , "code" : "wideRae" , "ext" : "png", "cat" : "rae"},
+				{ "id": 49 , "code" : "raeNodders" , "ext" : "gif", "cat" : "rae"},
+				{ "id": 50 , "code" : "raePopcorn" , "ext" : "gif", "cat" : "rae"},
+				{ "id": 51 , "code" : "raePog" , "ext" : "gif", "cat" : "rae"},
+				{ "id": 52 , "code" : "raeWhat" , "ext" : "gif", "cat" : "rae"},
+				{ "id": 53 , "code" : "wideRae2" , "ext" : "png", "cat" : "rae"}
 
-			
 	]
  }
