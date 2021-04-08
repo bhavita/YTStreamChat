@@ -1,6 +1,6 @@
 # Rae-Emotes Dictionary
-These are the custom emotes included in emotesly extension for Valkyrae youtube channel (), 
-If you would like a new emote added, please make an issue about it and gain support, altnativly if you are in her discord you can reach out to me to add more :)
+These are the custom emotes included in the Emotesly extension for Valkyrae youtube channel (https://www.youtube.com/c/Valkyrae1/), 
+If you would like a new emote added, please raise an issue(request) about it and gain support ^_^, alternatively, if you are in her discord, you can reach out to me to add more :)
 
 | Emote | Text |
 | --- | --- |
@@ -34,7 +34,7 @@ If you would like a new emote added, please make an issue about it and gain supp
 | ![](rae/28.gif)|raePray|
 | ![](rae/29.gif)|raePuke|
 | ![](rae/30.gif)|raeRaid|
-| ![](rae/31.gif)|raeRawrXD|
+| ![](rae/31.gif)|raeRawr|
 | ![](rae/32.gif)|raeRee|
 | ![](rae/33.gif)|raeScare|
 | ![](rae/34.gif)|raeScared|
