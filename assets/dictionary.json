@@ -52,7 +52,8 @@
 				{ "id": 50 , "code" : "raePopcorn" , "ext" : "gif", "cat" : "rae"},
 				{ "id": 51 , "code" : "raePog" , "ext" : "png", "cat" : "rae"},
 				{ "id": 52 , "code" : "raeWhat" , "ext" : "gif", "cat" : "rae"},
-				{ "id": 53 , "code" : "wideRae2" , "ext" : "png", "cat" : "rae"}
-
+				{ "id": 53 , "code" : "wideRae2" , "ext" : "png", "cat" : "rae"},
+				{ "id": 54 , "code" : "raeClap" , "ext" : "gif", "cat" : "rae"},
+				{ "id": 55 , "code" : "petMika" , "ext" : "gif", "cat" : "rae"}
 	]
  }
