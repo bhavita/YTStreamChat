@@ -1,6 +1,6 @@
  {
  	"emotes" : [
-				{ "id": 1 , "code" :"raeScare", "ext" : "gif" , "cat" : "rae"},
+				{ "id": 1 , "code" :"raeScareF", "ext" : "gif" , "cat" : "rae"},
 				{ "id": 2 , "code" : "raeShocked" , "ext" : "gif", "cat" : "rae"},
 				{ "id": 3 , "code" : "raeDerp" , "ext" : "gif", "cat" : "rae"},
 				{ "id": 4 , "code" : "raeDance" , "ext" : "gif", "cat" : "rae"},
@@ -53,7 +53,7 @@
 				{ "id": 51 , "code" : "raePog" , "ext" : "png", "cat" : "rae"},
 				{ "id": 52 , "code" : "raeWhat" , "ext" : "gif", "cat" : "rae"},
 				{ "id": 53 , "code" : "wideRae2" , "ext" : "png", "cat" : "rae"},
-				{ "id": 54 , "code" : "raeClap" , "ext" : "gif", "cat" : "rae"},
+				{ "id": 54 , "code" : "raeClaps" , "ext" : "gif", "cat" : "rae"},
 				{ "id": 55 , "code" : "petMika" , "ext" : "gif", "cat" : "rae"},
 				{ "id": 56 , "code" : "raePout" , "ext" : "gif", "cat" : "rae"}
 
