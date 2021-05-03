@@ -1,6 +1,6 @@
 {
 	"name": "Emotesly",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Enchance youtube stream experience by using emotes. Express Emotesly!!!!!",
 	"manifest_version": 2,
 	"content_scripts": [
@@ -23,7 +23,8 @@
             "32": "icons/favicon-32x32.png",
             "64": "icons/favicon-64x64.png",
             "128": "icons/favicon-128x128.png",
-            "192": "icons/favicon-192x192.png" 
+            "192": "icons/favicon-192x192.png",
+            "512": "icons/favicon-512x512.png"
         },
 
 	"options_ui": {

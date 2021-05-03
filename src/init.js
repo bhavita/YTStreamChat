@@ -6,7 +6,7 @@ let defaultSettings = {
 	changeColor : true,
 	showProfilePic : false,
 	showTimestamp : false,
-	showCustomemote : true
+	showCustomemote : true,
 };
 
 let UIHelper = {
@@ -19,6 +19,14 @@ updateSettingOptions (items){
 											items.showTimestamp : defaultSettings.showTimestamp;
 		settings.showCustomemote = (items && items.showCustomemote != undefined) ? 
 											items.showCustomemote : defaultSettings.showCustomemote;
+		settings.keywords = new Set()
+
+		if(items && items.keywords && items.keywords.length > 0){
+			var keywordsList = items.keywords.split(',');
+			for(let keyword of keywordsList){
+				settings.keywords.add(keyword.toLowerCase());
+			}
+		}									
 
 },
 
@@ -37,8 +45,8 @@ let NTHelper = {
 						reject(json);
 					}
 				});
-			});
-		});
+			}).catch(err => console.log('fetch ' + err));;
+		}).catch(err => console.log('NTHelper ' + err));
 	},
 
 	querySelectorAsync (selector, doc = document, interval = 100,timeout = 10000) {
@@ -166,9 +174,12 @@ let YTHelper = {
 				} else if(customEmotes[sword]){
 						let customEmote = customEmotes[sword];
 						word = '<img class="emote-chat emoji yt-formatted-string style-scope yt-live-chat-text-message-renderer" style="vertical-align: middle;	width: 32px; height: 32px;margin: -1px 2px 1px;" src="https://cdn.jsdelivr.net/gh/bhavita/YTStreamChat/assets/emotes/' + customEmote.cat + "/" +  customEmote.id + "." + customEmote.ext  + '" alt="' + word + '" title="' + word + '" />';
+				} else if(settings.keywords.has(sword)){
+					//to highlight the word
+					word = '<mark>'+word+'</mark>'
 				}
 
-				newText.push(word);
+				newText.push(word);	
 			}
 
 			return newText.join(' ');
@@ -227,7 +238,7 @@ const Custom = {
 		return new Promise((resolve) => {
 		customEmotes = items.customEmotes || {};
 		if(typeof customEmotes === 'undefined' || customEmotes.length == 0 || Date.now()  - Custom.lastUpdate > SYNC_THRESHOLD){
-			NTHelper.fetch('https://raw.githubusercontent.com/bhavita/YTStreamChat/main/assets/dictionary.json').then((data) => {
+			NTHelper.fetch('https://cdn.jsdelivr.net/gh/bhavita/YTStreamChat/assets/dictionary.json').then((data) => {
 				Custom.lastUpdate = Date.now();
 				if(data && data.emotes){
 					for(let emote of data.emotes){
@@ -256,7 +267,7 @@ const Custom = {
 			return new Promise((resolve) => {
 				twitchGlobalEmotes = items.globalTwitchEmotes || {};
 				if (typeof items.globalTwitchEmotes === 'undefined' || items.globalTwitchEmotes === null || Date.now() - Twitch.lastUpdate > 604800000) {
-					NTHelper.fetch('https://api.twitchemotes.com/api/v4/channels/0').then((data) => {
+					NTHelper.fetch('https://cdn.jsdelivr.net/gh/bhavita/YTStreamChat/assets/twitchGlobalDictionary.json').then((data) => {
 						Twitch.lastUpdate = Date.now();
 						for (let emote of data.emotes) {
 							if (emote.code.match(/^[a-zA-Z0-9]+$/)) {

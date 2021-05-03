@@ -5,7 +5,7 @@ function saveOptions() {
   var showProfilePic = document.getElementById('showProfilePic').checked;
   var showTimestamp = document.getElementById('showTimestamp').checked;
   var showCustomemote = document.getElementById('showCustomemote').checked;
-
+  var keywords = document.getElementById('keywords').value;
   var btn = document.getElementById('save');
 
 
@@ -13,7 +13,8 @@ function saveOptions() {
     changeColor: changeColor,
     showProfilePic: showProfilePic,
     showTimestamp : showTimestamp,
-    showCustomemote : showCustomemote
+    showCustomemote : showCustomemote,
+    keywords : keywords
   }, function() {  
       btn.classList.toggle("is_active");
   });
@@ -27,12 +28,15 @@ function restoreOptions() {
     changeColor: true,
     showProfilePic: false,
     showTimestamp : false,
-    showCustomemote : true
+    showCustomemote : true,
+    keywords : ''
   }, function(items) {
     document.getElementById('changeColor').checked = items.changeColor;
     document.getElementById('showProfilePic').checked = items.showProfilePic;
     document.getElementById('showTimestamp').checked = items.showTimestamp;
     document.getElementById('showCustomemote').checked = items.showCustomemote;
+    document.getElementById('keywords').value = items.keywords;
+
   });
 }
 
