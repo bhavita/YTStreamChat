@@ -60,8 +60,9 @@
 				{ "id": 58 , "code" : "raeNT" , "ext" : "gif", "cat" : "rae"},
 				{ "id": 59 , "code" : "raeWassupDawg" , "ext" : "png", "cat" : "rae"},
 				{ "id": 60 , "code" : "sheesh" , "ext" : "gif", "cat" : "rae"},
-				{ "id": 61 , "code" : "raeWink" , "ext" : "gif", "cat" : "rae"}
-
+				{ "id": 61 , "code" : "raeWink" , "ext" : "gif", "cat" : "rae"},
+				{ "id": 62 , "code" : "raeChef" , "ext" : "png", "cat" : "rae"},
+				{ "id": 63 , "code" : "raeCooks" , "ext" : "png", "cat" : "rae"}
 
 	]
  }
