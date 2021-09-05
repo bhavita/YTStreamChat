@@ -63,7 +63,16 @@
 				{ "id": 61 , "code" : "raeWink" , "ext" : "gif", "cat" : "rae"},
 				{ "id": 62 , "code" : "raeChef" , "ext" : "png", "cat" : "rae"},
 				{ "id": 63 , "code" : "raeCooks" , "ext" : "png", "cat" : "rae"},
-				{ "id": 64 , "code" : "raeSob" , "ext" : "png", "cat" : "rae"}
-
+				{ "id": 64 , "code" : "raeSob" , "ext" : "png", "cat" : "rae"},
+		
+		
+				{ "id": 1 , "code" : "Jammies" , "ext" : "gif", "cat" : "bttv"},
+				{ "id": 2 , "code" : "COPIUM" , "ext" : "png", "cat" : "bttv"},			
+				{ "id": 3 , "code" : "monkaHmm" , "ext" : "png", "cat" : "bttv"},
+				{ "id": 4 , "code" : "pepega" , "ext" : "png", "cat" : "bttv"},
+				{ "id": 5 , "code" : "YEP" , "ext" : "png", "cat" : "bttv"},		
+				{ "id": 6 , "code" : "Blankies" , "ext" : "gif", "cat" : "bttv"},
+				{ "id": 7 , "code" : "WineTime" , "ext" : "gif", "cat" : "bttv"},
+				{ "id": 8 , "code" : "MmmHmm" , "ext" : "gif", "cat" : "bttv"}
 	]
  }
