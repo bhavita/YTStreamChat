@@ -110,7 +110,7 @@
 				{ "id": 2 , "code" : "peepoShy" , "ext" : "gif", "cat" : "xmas"},
 				{ "id": 3 , "code" : "pepeD" , "ext" : "gif", "cat" : "xmas"},
 				{ "id": 4 , "code" : "peepoClap" , "ext" : "gif", "cat" : "xmas"},
-				{ "id": 5 , "code" : "Sadge" , "ext" : "gif", "cat" : "xmas"},
+				{ "id": 5 , "code" : "Sadge" , "ext" : "png", "cat" : "xmas"},
 				{ "id": 6 , "code" : "peepoSnow" , "ext" : "gif", "cat" : "xmas"},
 				{ "id": 7 , "code" : "Jammies" , "ext" : "gif", "cat" : "xmas"},
 				{ "id": 8 , "code" : "pepeJAM" , "ext" : "gif", "cat" : "xmas"},
