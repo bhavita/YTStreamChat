@@ -65,9 +65,10 @@
 				{ "id": 63 , "code" : "raeCooks" , "ext" : "png", "cat" : "rae"},
 				{ "id": 64 , "code" : "raeSob" , "ext" : "png", "cat" : "rae"},
 				{ "id": 65 , "code" : "OPRAE" , "ext" : "gif", "cat" : "rae"},
+				{ "id": 66 , "code" : "mikaSmart" , "ext" : "png", "cat" : "rae"},
 
 		
-		
+	
 				{ "id": 1 , "code" : "Jammies" , "ext" : "gif", "cat" : "bttv"},
 				{ "id": 2 , "code" : "COPIUM" , "ext" : "png", "cat" : "bttv"},			
 				{ "id": 3 , "code" : "monkaHmm" , "ext" : "png", "cat" : "bttv"},
