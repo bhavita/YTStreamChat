@@ -103,7 +103,7 @@
 		
 				{ "id": 32 , "code" : "widePeepoHeart" , "ext" : "gif", "cat" : "bttv"},
 				{ "id": 33 , "code" : "UHM" , "ext" : "png", "cat" : "bttv"},
-				{ "id": 34 , "code" : "WICKED" , "ext" : "png", "cat" : "bttv"},
+				{ "id": 34 , "code" : "WICKED" , "ext" : "gif", "cat" : "bttv"},
 				{ "id": 35 , "code" : "Clueless" , "ext" : "png", "cat" : "bttv"},
 				{ "id": 36 , "code" : "PepeWhy" , "ext" : "gif", "cat" : "bttv"},
 				{ "id": 37 , "code" : "FeelsLagMan" , "ext" : "gif", "cat" : "bttv"},
@@ -126,6 +126,29 @@
 				{ "id": 54 , "code" : "HUH" , "ext" : "png", "cat" : "bttv"},
 				{ "id": 55 , "code" : "hackerCat" , "ext" : "gif", "cat" : "bttv"},
 				{ "id": 56 , "code" : "WhoAsked" , "ext" : "gif", "cat" : "bttv"},
+		
+				
+				{ "id": 57 , "code" : "NOPERS" , "ext" : "gif", "cat" : "bttv"},
+				{ "id": 58 , "code" : "NODDERS" , "ext" : "gif", "cat" : "bttv"},
+				{ "id": 59 , "code" : "SHUSHERS" , "ext" : "gif", "cat" : "bttv"},
+				{ "id": 60 , "code" : "peepoShy" , "ext" : "gif", "cat" : "bttv"},
+				{ "id": 6 , "code" : "peepoSnow" , "ext" : "gif", "cat" : "xmas"},
+				{ "id": 61 , "code" : "Jammies" , "ext" : "gif", "cat" : "bttv"},
+				{ "id": 62 , "code" : "peepoArriveWithBan" , "ext" : "gif", "cat" : "bttv"},
+				{ "id": 63 , "code" : "peepoGiggles" , "ext" : "gif", "cat" : "bttv"},
+				{ "id": 64 , "code" : "sykGiggles" , "ext" : "gif", "cat" : "bttv"},
+
+				{ "id": 65 , "code" : "COPIUM" , "ext" : "gif", "cat" : "bttv"},
+				{ "id": 66 , "code" : "peepoRiot" , "ext" : "gif", "cat" : "bttv"},
+				{ "id": 67 , "code" : "pepeLaughRae" , "ext" : "gif", "cat" : "bttv"},
+				{ "id": 68 , "code" : "pepeLaugh" , "ext" : "gif", "cat" : "bttv"},
+				{ "id": 69 , "code" : "peepoBye" , "ext" : "gif", "cat" : "bttv"},
+				{ "id": 70 , "code" : "Prayge" , "ext" : "gif", "cat" : "bttv"},
+		
+		
+				{ "id": 71 , "code" : "peepoPopcorn" , "ext" : "gif", "cat" : "bttv"},
+				{ "id": 72 , "code" : "peepoTalk" , "ext" : "gif", "cat" : "bttv"},
+		
 
 		
 				{ "id": 1 , "code" : "mizkifEgg" , "ext" : "png", "cat" : "miz"},
@@ -133,34 +156,6 @@
 		
 				
 		
-				
-				{ "id": 1 , "code" : "NOPERS" , "ext" : "gif", "cat" : "xmas"},
-				{ "id": 2 , "code" : "peepoShy" , "ext" : "gif", "cat" : "xmas"},
-				{ "id": 3 , "code" : "pepeD" , "ext" : "gif", "cat" : "xmas"},
-				{ "id": 4 , "code" : "peepoClap" , "ext" : "gif", "cat" : "xmas"},
-				{ "id": 5 , "code" : "Sadge" , "ext" : "png", "cat" : "xmas"},
-				{ "id": 6 , "code" : "peepoSnow" , "ext" : "gif", "cat" : "xmas"},
-				{ "id": 7 , "code" : "Jammies" , "ext" : "gif", "cat" : "xmas"},
-				{ "id": 8 , "code" : "pepeJAM" , "ext" : "gif", "cat" : "xmas"},
-				{ "id": 9 , "code" : "peepoHey" , "ext" : "gif", "cat" : "xmas"},
-				{ "id": 10 , "code" : "peepoArrive" , "ext" : "gif", "cat" : "xmas"},
-				{ "id": 11 , "code" : "peepoLeave" , "ext" : "gif", "cat" : "xmas"},
-				{ "id": 12 , "code" : "peepoRun" , "ext" : "gif", "cat" : "xmas"},
-				{ "id": 13 , "code" : "peepoGiggles" , "ext" : "gif", "cat" : "xmas"},
-				{ "id": 14 , "code" : "monkaS" , "ext" : "png", "cat" : "xmas"},
-				{ "id": 15 , "code" : "COPIUM" , "ext" : "gif", "cat" : "xmas"},
-				{ "id": 16 , "code" : "peepoRiot" , "ext" : "gif", "cat" : "xmas"},
-				{ "id": 17 , "code" : "PepeLaugh" , "ext" : "gif", "cat" : "xmas"},
-				{ "id": 18 , "code" : "PepeHands" , "ext" : "png", "cat" : "xmas"},
-				{ "id": 19 , "code" : "HACKERMANS" , "ext" : "gif", "cat" : "xmas"},
-				{ "id": 20 , "code" : "peepoBye" , "ext" : "gif", "cat" : "xmas"},
-				{ "id": 21 , "code" : "Prayge" , "ext" : "png", "cat" : "xmas"},
-				{ "id": 22 , "code" : "peepoPopcorn" , "ext" : "gif", "cat" : "xmas"},
-				{ "id": 23 , "code" : "modCheck" , "ext" : "gif", "cat" : "xmas"},
-				{ "id": 24 , "code" : "peepoTalk" , "ext" : "gif", "cat" : "xmas"},
-				{ "id": 25 , "code" : "KEKW" , "ext" : "gif", "cat" : "xmas"},
-				{ "id": 26 , "code" : "pepeG" , "ext" : "png", "cat" : "xmas"},
-				{ "id": 27 , "code" : "NODDERS" , "ext" : "gif", "cat" : "xmas"}
 
 
 		
