@@ -66,6 +66,7 @@
 				{ "id": 64 , "code" : "raeSob" , "ext" : "png", "cat" : "rae"},
 				{ "id": 65 , "code" : "OPRAE" , "ext" : "gif", "cat" : "rae"},
 				{ "id": 66 , "code" : "mikaSmart" , "ext" : "png", "cat" : "rae"},
+				{ "id": 66 , "code" : "mikaWink" , "ext" : "png", "cat" : "rae"},
 
 		
 	
@@ -150,8 +151,11 @@
 		
 		
 				{ "id": 71 , "code" : "peepoPopcorn" , "ext" : "gif", "cat" : "bttv"},
-				{ "id": 72 , "code" : "peepoTalk" , "ext" : "gif", "cat" : "bttv"}
-		
+				{ "id": 72 , "code" : "peepoTalk" , "ext" : "gif", "cat" : "bttv"},
+				{ "id": 73 , "code" : "BASED" , "ext" : "gif", "cat" : "bttv"},
+				{ "id": 74 , "code" : "peepoPat" , "ext" : "gif", "cat" : "bttv"}
+
+
 
 		
 				
