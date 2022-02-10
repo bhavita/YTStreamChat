@@ -100,8 +100,9 @@
 				{ "id": 29 , "code" : "JammiesH" , "ext" : "gif", "cat" : "bttv"},
 				{ "id": 30 , "code" : "KEKWh" , "ext" : "png", "cat" : "bttv"},
 				{ "id": 31 , "code" : "pauseChampH" , "ext" : "png", "cat" : "bttv"},
+		
 				{ "id": 32 , "code" : "widePeepoHeart" , "ext" : "gif", "cat" : "bttv"},
-				{ "id": 33 , "code" : "UHM" , "ext" : "gif", "cat" : "bttv"},
+				{ "id": 33 , "code" : "UHM" , "ext" : "png", "cat" : "bttv"},
 				{ "id": 34 , "code" : "WICKED" , "ext" : "png", "cat" : "bttv"},
 				{ "id": 35 , "code" : "Clueless" , "ext" : "png", "cat" : "bttv"},
 				{ "id": 36 , "code" : "PepeWhy" , "ext" : "gif", "cat" : "bttv"},
@@ -123,8 +124,8 @@
 				{ "id": 52 , "code" : "ThisIsFine" , "ext" : "gif", "cat" : "bttv"},
 				{ "id": 53 , "code" : "modClean" , "ext" : "gif", "cat" : "bttv"},
 				{ "id": 54 , "code" : "HUH" , "ext" : "png", "cat" : "bttv"},
-				{ "id": 55 , "code" : "hackerCat" , "ext" : "png", "cat" : "bttv"},
-				{ "id": 56 , "code" : "WhoAsked" , "ext" : "png", "cat" : "bttv"},
+				{ "id": 55 , "code" : "hackerCat" , "ext" : "gif", "cat" : "bttv"},
+				{ "id": 56 , "code" : "WhoAsked" , "ext" : "gif", "cat" : "bttv"},
 
 		
 				{ "id": 1 , "code" : "mizkifEgg" , "ext" : "png", "cat" : "miz"},
