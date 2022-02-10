@@ -67,17 +67,15 @@
 				{ "id": 66 , "code" : "mikaSmart" , "ext" : "png", "cat" : "rae"},
 				{ "id": 67 , "code" : "mikaWink" , "ext" : "png", "cat" : "rae"},
 	 			{ "id": 64 , "code" : "sykGiggles" , "ext" : "gif", "cat" : "bttv"},
-	 			{ "id": 68 , "code" : "ceilLETSGO" , "ext" : "png", "cat" : "rae"},
-				{ "id": 69 , "code" : "ceilHeart" , "ext" : "png", "cat" : "rae"},
-				{ "id": 70 , "code" : "pokiPunch" , "ext" : "png", "cat" : "rae"},
-				{ "id": 71 , "code" : "pokiDance" , "ext" : "png", "cat" : "rae"},
-				{ "id": 72 , "code" : "janetDance" , "ext" : "png", "cat" : "rae"},
-				{ "id": 73 , "code" : "natsuDance" , "ext" : "png", "cat" : "rae"},
-				{ "id": 74 , "code" : "sydDance" , "ext" : "png", "cat" : "rae"},
-				{ "id": 75 , "code" : "ariaDance" , "ext" : "png", "cat" : "rae"},
-	 			{ "id": 76 , "code" : "kkatamDance" , "ext" : "png", "cat" : "rae"},
-
-
+	 			{ "id": 68 , "code" : "ceilLETSGO" , "ext" : "gif", "cat" : "rae"},
+				{ "id": 69 , "code" : "ceilHeart" , "ext" : "gif", "cat" : "rae"},
+				{ "id": 70 , "code" : "pokiPunch" , "ext" : "gif", "cat" : "rae"},
+				{ "id": 71 , "code" : "pokiDance" , "ext" : "gif", "cat" : "rae"},
+				{ "id": 72 , "code" : "janetDance" , "ext" : "gif", "cat" : "rae"},
+				{ "id": 73 , "code" : "natsuDance" , "ext" : "gif", "cat" : "rae"},
+				{ "id": 74 , "code" : "sydDance" , "ext" : "gif", "cat" : "rae"},
+				{ "id": 75 , "code" : "ariaDance" , "ext" : "gif", "cat" : "rae"},
+	 			{ "id": 76 , "code" : "kkatamDance" , "ext" : "gif", "cat" : "rae"},
 	 
 	 
 				{ "id": 1 , "code" : "Jammies" , "ext" : "gif", "cat" : "bttv"},
@@ -152,7 +150,13 @@
 				{ "id": 72 , "code" : "peepoTalk" , "ext" : "gif", "cat" : "bttv"},
 				{ "id": 73 , "code" : "BASED" , "ext" : "gif", "cat" : "bttv"},
 				{ "id": 74 , "code" : "peepoPat" , "ext" : "gif", "cat" : "bttv"},
-	 			{ "id": 75 , "code" : "madgeNow" , "ext" : "gif", "cat" : "bttv"}				
-
+	 			{ "id": 75 , "code" : "madgeNow" , "ext" : "gif", "cat" : "bttv"},
+	 	 		{ "id": 76 , "code" : "dinkDonk" , "ext" : "gif", "cat" : "bttv"},				
+	 			{ "id": 77 , "code" : "SAVED" , "ext" : "gif", "cat" : "bttv"},				
+	 			{ "id": 78 , "code" : "OHHH" , "ext" : "gif", "cat" : "bttv"},				
+	 			{ "id": 79 , "code" : "peepoComfy" , "ext" : "gif", "cat" : "bttv"},				
+	 			{ "id": 80 , "code" : "WEIRD" , "ext" : "gif", "cat" : "bttv"},
+	 	 		{ "id": 81 , "code" : "loveMODS" , "ext" : "gif", "cat" : "bttv"},
+	 	 		{ "id": 82 , "code" : "pepegaPolice" , "ext" : "gif", "cat" : "bttv"}				
 	]
  }
