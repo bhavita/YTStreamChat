@@ -65,10 +65,21 @@
 				{ "id": 64 , "code" : "raeSob" , "ext" : "png", "cat" : "rae"},
 				{ "id": 65 , "code" : "OPRAE" , "ext" : "gif", "cat" : "rae"},
 				{ "id": 66 , "code" : "mikaSmart" , "ext" : "png", "cat" : "rae"},
-				{ "id": 66 , "code" : "mikaWink" , "ext" : "png", "cat" : "rae"},
+				{ "id": 67 , "code" : "mikaWink" , "ext" : "png", "cat" : "rae"},
+	 			{ "id": 64 , "code" : "sykGiggles" , "ext" : "gif", "cat" : "bttv"},
+	 			{ "id": 68 , "code" : "ceilLETSGO" , "ext" : "png", "cat" : "rae"},
+				{ "id": 69 , "code" : "ceilHeart" , "ext" : "png", "cat" : "rae"},
+				{ "id": 70 , "code" : "pokiPunch" , "ext" : "png", "cat" : "rae"},
+				{ "id": 71 , "code" : "pokiDance" , "ext" : "png", "cat" : "rae"},
+				{ "id": 72 , "code" : "janetDance" , "ext" : "png", "cat" : "rae"},
+				{ "id": 73 , "code" : "natsuDance" , "ext" : "png", "cat" : "rae"},
+				{ "id": 74 , "code" : "sydDance" , "ext" : "png", "cat" : "rae"},
+				{ "id": 75 , "code" : "ariaDance" , "ext" : "png", "cat" : "rae"},
+	 			{ "id": 76 , "code" : "kkatamDance" , "ext" : "png", "cat" : "rae"},
 
-		
-	
+
+	 
+	 
 				{ "id": 1 , "code" : "Jammies" , "ext" : "gif", "cat" : "bttv"},
 				{ "id": 2 , "code" : "COPIUM" , "ext" : "png", "cat" : "bttv"},			
 				{ "id": 3 , "code" : "monkaHmm" , "ext" : "png", "cat" : "bttv"},
@@ -94,7 +105,6 @@
 				{ "id": 23 , "code" : "PepeJamH" , "ext" : "gif", "cat" : "bttv"},
 				{ "id": 24 , "code" : "PepoRunH" , "ext" : "gif", "cat" : "bttv"},
 				{ "id": 25 , "code" : "PepoCheerH" , "ext" : "gif", "cat" : "bttv"},
-				{ "id": 26 , "code" : "PepoArrive" , "ext" : "gif", "cat" : "bttv"},
 				{ "id": 27 , "code" : "SadgeH" , "ext" : "png", "cat" : "bttv"},
 				{ "id": 28 , "code" : "monkaH" , "ext" : "png", "cat" : "bttv"},
 				{ "id": 29 , "code" : "JammiesH" , "ext" : "gif", "cat" : "bttv"},
@@ -132,7 +142,6 @@
 				{ "id": 61 , "code" : "Jammies" , "ext" : "gif", "cat" : "bttv"},
 				{ "id": 62 , "code" : "peepoArriveWithBan" , "ext" : "gif", "cat" : "bttv"},
 				{ "id": 63 , "code" : "peepoGiggles" , "ext" : "gif", "cat" : "bttv"},
-				{ "id": 64 , "code" : "sykGiggles" , "ext" : "gif", "cat" : "bttv"},
 				{ "id": 65 , "code" : "COPIUM" , "ext" : "gif", "cat" : "bttv"},
 				{ "id": 66 , "code" : "peepoRiot" , "ext" : "gif", "cat" : "bttv"},
 				{ "id": 67 , "code" : "pepeLaughRae" , "ext" : "gif", "cat" : "bttv"},
