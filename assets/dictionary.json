@@ -1,5 +1,4 @@
- {
- 	"emotes" : [
+ {	"emotes" : [
 				{ "id": 1 , "code" : "raeScareF", "ext" : "gif" , "cat" : "rae"},
 				{ "id": 2 , "code" : "raeShocked" , "ext" : "gif", "cat" : "rae"},
 				{ "id": 3 , "code" : "raeDerp" , "ext" : "gif", "cat" : "rae"},
@@ -101,7 +100,6 @@
 				{ "id": 29 , "code" : "JammiesH" , "ext" : "gif", "cat" : "bttv"},
 				{ "id": 30 , "code" : "KEKWh" , "ext" : "png", "cat" : "bttv"},
 				{ "id": 31 , "code" : "pauseChampH" , "ext" : "png", "cat" : "bttv"},
-		
 				{ "id": 32 , "code" : "widePeepoHeart" , "ext" : "gif", "cat" : "bttv"},
 				{ "id": 33 , "code" : "UHM" , "ext" : "png", "cat" : "bttv"},
 				{ "id": 34 , "code" : "WICKED" , "ext" : "gif", "cat" : "bttv"},
@@ -127,27 +125,20 @@
 				{ "id": 54 , "code" : "HUH" , "ext" : "png", "cat" : "bttv"},
 				{ "id": 55 , "code" : "hackerCat" , "ext" : "gif", "cat" : "bttv"},
 				{ "id": 56 , "code" : "WhoAsked" , "ext" : "gif", "cat" : "bttv"},
-		
-				
 				{ "id": 57 , "code" : "NOPERS" , "ext" : "gif", "cat" : "bttv"},
 				{ "id": 58 , "code" : "NODDERS" , "ext" : "gif", "cat" : "bttv"},
 				{ "id": 59 , "code" : "SHUSHERS" , "ext" : "gif", "cat" : "bttv"},
-				
-
 				{ "id": 60 , "code" : "peepoShy" , "ext" : "gif", "cat" : "bttv"},
 				{ "id": 61 , "code" : "Jammies" , "ext" : "gif", "cat" : "bttv"},
 				{ "id": 62 , "code" : "peepoArriveWithBan" , "ext" : "gif", "cat" : "bttv"},
 				{ "id": 63 , "code" : "peepoGiggles" , "ext" : "gif", "cat" : "bttv"},
 				{ "id": 64 , "code" : "sykGiggles" , "ext" : "gif", "cat" : "bttv"},
-
 				{ "id": 65 , "code" : "COPIUM" , "ext" : "gif", "cat" : "bttv"},
 				{ "id": 66 , "code" : "peepoRiot" , "ext" : "gif", "cat" : "bttv"},
 				{ "id": 67 , "code" : "pepeLaughRae" , "ext" : "gif", "cat" : "bttv"},
 				{ "id": 68 , "code" : "pepeLaugh" , "ext" : "gif", "cat" : "bttv"},
 				{ "id": 69 , "code" : "peepoBye" , "ext" : "gif", "cat" : "bttv"},
 				{ "id": 70 , "code" : "Prayge" , "ext" : "gif", "cat" : "bttv"},
-		
-		
 				{ "id": 71 , "code" : "peepoPopcorn" , "ext" : "gif", "cat" : "bttv"},
 				{ "id": 72 , "code" : "peepoTalk" , "ext" : "gif", "cat" : "bttv"},
 				{ "id": 73 , "code" : "BASED" , "ext" : "gif", "cat" : "bttv"},
