@@ -157,7 +157,7 @@
 	 			{ "id": 80 , "code" : "WEIRD" , "ext" : "gif", "cat" : "bttv"},
 	 	 		{ "id": 81 , "code" : "loveMODS" , "ext" : "gif", "cat" : "bttv"},
 	 	 		{ "id": 82 , "code" : "pepegaPolice" , "ext" : "gif", "cat" : "bttv"},
-	 	 	 	{ "id": 83 , "code" : "widePeepoHappy" , "ext" : "png", "cat" : "bttv"}				
+	 	 	 	{ "id": 83 , "code" : "widePeepoHappy" , "ext" : "png", "cat" : "bttv", "width" : 135, "height": 32}				
 
 	]
  }
