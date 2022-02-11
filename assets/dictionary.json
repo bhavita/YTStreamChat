@@ -108,6 +108,7 @@
 				{ "id": 29 , "code" : "JammiesH" , "ext" : "gif", "cat" : "bttv"},
 				{ "id": 30 , "code" : "KEKWh" , "ext" : "png", "cat" : "bttv"},
 				{ "id": 32 , "code" : "widePeepoHeart" , "ext" : "gif", "cat" : "bttv"},
+	 	 	 	{ "id": 83 , "code" : "widePeepoHappy" , "ext" : "png", "cat" : "bttv", "width" : 75, "height": 16},				
 				{ "id": 33 , "code" : "UHM" , "ext" : "png", "cat" : "bttv"},
 				{ "id": 34 , "code" : "WICKED" , "ext" : "gif", "cat" : "bttv"},
 				{ "id": 35 , "code" : "Clueless" , "ext" : "png", "cat" : "bttv"},
@@ -156,8 +157,7 @@
 	 			{ "id": 79 , "code" : "peepoComfy" , "ext" : "gif", "cat" : "bttv"},				
 	 			{ "id": 80 , "code" : "WEIRD" , "ext" : "gif", "cat" : "bttv"},
 	 	 		{ "id": 81 , "code" : "loveMODS" , "ext" : "gif", "cat" : "bttv"},
-	 	 		{ "id": 82 , "code" : "pepegaPolice" , "ext" : "gif", "cat" : "bttv"},
-	 	 	 	{ "id": 83 , "code" : "widePeepoHappy" , "ext" : "png", "cat" : "bttv", "width" : 135, "height": 32}				
+	 	 		{ "id": 82 , "code" : "pepegaPolice" , "ext" : "gif", "cat" : "bttv"}
 
 	]
  }
