@@ -7,6 +7,7 @@
 				{ "id": 6 , "code" : "mikaCute" , "ext" : "gif", "cat" : "rae"},
 				{ "id": 7 , "code" : "raeHappy" , "ext" : "gif", "cat" : "rae"},
 				{ "id": 8 , "code" : "raeaww" , "ext" : "gif", "cat" : "rae"},
+	  	 		{ "id": 77 , "code" : "raeGrinder" , "ext" : "gif", "cat" : "rae"},
 				{ "id": 9 , "code" : "raeButt" , "ext" : "gif", "cat" : "rae"},
 				{ "id": 10 , "code" : "raeThink" , "ext" : "gif", "cat" : "rae"},
 				{ "id": 11 , "code" : "raeCaffein" , "ext" : "gif", "cat" : "rae"},
@@ -77,6 +78,8 @@
 				{ "id": 75 , "code" : "ariaDance" , "ext" : "gif", "cat" : "rae"},
 	 	 		{ "id": 77 , "code" : "jodiDance" , "ext" : "gif", "cat" : "rae"},
 	 			{ "id": 76 , "code" : "kkatamDance" , "ext" : "gif", "cat" : "rae"},
+	
+
 	 
 	 
 				{ "id": 1 , "code" : "Jammies" , "ext" : "gif", "cat" : "bttv"},
@@ -94,7 +97,6 @@
 				{ "id": 13 , "code" : "NODDERSH" , "ext" : "gif", "cat" : "bttv"},
 				{ "id": 14 , "code" : "peepoGigglesH" , "ext" : "gif", "cat" : "bttv"},
 				{ "id": 15 , "code" : "BLUBBERSH" , "ext" : "gif", "cat" : "bttv"},
-				{ "id": 18 , "code" : "HypersH" , "ext" : "png", "cat" : "bttv"},
 				{ "id": 19 , "code" : "BlobDanceH" , "ext" : "gif", "cat" : "bttv"},
 				{ "id": 20 , "code" : "JammiesS" , "ext" : "gif", "cat" : "bttv"},
 				{ "id": 21 , "code" : "peepoCandy" , "ext" : "gif", "cat" : "bttv"},
@@ -154,7 +156,7 @@
 	 			{ "id": 77 , "code" : "SAVED" , "ext" : "gif", "cat" : "bttv"},				
 	 			{ "id": 78 , "code" : "OHHH" , "ext" : "gif", "cat" : "bttv"},				
 	 			{ "id": 79 , "code" : "peepoComfy" , "ext" : "gif", "cat" : "bttv"},				
-	 			{ "id": 80 , "code" : "WEIRD" , "ext" : "gif", "cat" : "bttv"},
+	 			{ "id": 80 , "code" : "peepoWEIRD" , "ext" : "gif", "cat" : "bttv"},
 	 	 		{ "id": 81 , "code" : "loveMODS" , "ext" : "gif", "cat" : "bttv"},
 	 	 		{ "id": 82 , "code" : "pepegaPolice" , "ext" : "gif", "cat" : "bttv"},
 	 	 	 	{ "id": 84 , "code" : "AAAA" , "ext" : "gif", "cat" : "bttv"}
