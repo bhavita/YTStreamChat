@@ -159,7 +159,12 @@
 	 			{ "id": 80 , "code" : "peepoWEIRD" , "ext" : "gif", "cat" : "bttv"},
 	 	 		{ "id": 81 , "code" : "loveMODS" , "ext" : "gif", "cat" : "bttv"},
 	 	 		{ "id": 82 , "code" : "pepegaPolice" , "ext" : "gif", "cat" : "bttv"},
-	 	 	 	{ "id": 84 , "code" : "AAAA" , "ext" : "gif", "cat" : "bttv"}
+	 	 	 	{ "id": 84 , "code" : "AAAA" , "ext" : "gif", "cat" : "bttv"},
+			  	{ "id": 85 , "code" : "chickenDance" , "ext" : "gif", "cat" : "bttv"},
+	  			{ "id": 86 , "code" : "pepeLost" , "png" : "gif", "cat" : "bttv"},
+	  			{ "id": 87 , "code" : "pepeClown" , "ext" : "png", "cat" : "bttv"},
+			  	{ "id": 88 , "code" : "pepeManifest" , "ext" : "png", "cat" : "bttv"},
+			  	{ "id": 89 , "code" : "GROUPIM" , "ext" : "png", "cat" : "bttv", "width" : 64, "height": 16}
 
 
 	]
