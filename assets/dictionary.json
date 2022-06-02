@@ -8,6 +8,14 @@
 				{ "id": 7 , "code" : "raeHappy" , "ext" : "gif", "cat" : "rae"},
 				{ "id": 8 , "code" : "raeaww" , "ext" : "gif", "cat" : "rae"},
 	  	 		{ "id": 78 , "code" : "raeGrinder" , "ext" : "gif", "cat" : "rae"},
+	 
+				{ "id": 87 , "code" : "raeBreh" , "ext" : "gif", "cat" : "rae"},
+				{ "id": 88 , "code" : "raeload" , "ext" : "gif", "cat" : "rae"},
+				{ "id": 89 , "code" : "corpseCopium" , "ext" : "png", "cat" : "rae"},
+				{ "id": 90 , "code" : "raeCopium" , "ext" : "png", "cat" : "rae"},
+				{ "id": 91 , "code" : "toastCopium" , "ext" : "png", "cat" : "rae"},
+				{ "id": 92 , "code" : "sykCopium" , "ext" : "png", "cat" : "rae"},
+	
 				{ "id": 9 , "code" : "raeButt" , "ext" : "gif", "cat" : "rae"},
 				{ "id": 10 , "code" : "raeThink" , "ext" : "gif", "cat" : "rae"},
 				{ "id": 11 , "code" : "raeCaffein" , "ext" : "gif", "cat" : "rae"},
@@ -78,8 +86,15 @@
 				{ "id": 75 , "code" : "ariaDance" , "ext" : "gif", "cat" : "rae"},
 	 	 		{ "id": 77 , "code" : "jodiDance" , "ext" : "gif", "cat" : "rae"},
 	 			{ "id": 76 , "code" : "kkatamDance" , "ext" : "gif", "cat" : "rae"},
-	
-
+	 			{ "id": 77 , "code" : "scarraDance" , "ext" : "gif", "cat" : "rae"},
+	 			{ "id": 78 , "code" : "fusFloss" , "ext" : "gif", "cat" : "rae"},
+	 			{ "id": 79 , "code" : "peterChefKiss" , "ext" : "png", "cat" : "rae"},
+	 			{ "id": 80 , "code" : "peterDance" , "ext" : "gif", "cat" : "rae"},
+	 			{ "id": 81 , "code" : "ceilClap" , "ext" : "gif", "cat" : "rae"},
+	 			{ "id": 83 , "code" : "kkatamHide" , "ext" : "png", "cat" : "rae"},
+	 			{ "id": 84 , "code" : "nabiEvil" , "ext" : "gif", "cat" : "rae"},
+	 			{ "id": 85 , "code" : "petLilCat" , "ext" : "gif", "cat" : "rae"},
+	 			{ "id": 86 , "code" : "petNabi" , "ext" : "gif", "cat" : "rae"},
 	 
 	 
 				{ "id": 1 , "code" : "Jammies" , "ext" : "gif", "cat" : "bttv"},
